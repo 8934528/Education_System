@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFF5CA9-54B8-4851-B449-39CD84DF73E2}|Education_System\\Education_System.csproj|c:\\users\\zenande\\downloads\\telkom hackathon\\education_system\\education_system\\forms\\student\\studentdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FDFF5CA9-54B8-4851-B449-39CD84DF73E2}|Education_System\\Education_System.csproj|solutionrelative:education_system\\forms\\student\\studentdashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFF5CA9-54B8-4851-B449-39CD84DF73E2}|Education_System\\Education_System.csproj|C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\education_system\\forms\\student\\student.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{FDFF5CA9-54B8-4851-B449-39CD84DF73E2}|Education_System\\Education_System.csproj|solutionrelative:education_system\\forms\\student\\student.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFF5CA9-54B8-4851-B449-39CD84DF73E2}|Education_System\\Education_System.csproj|C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\education_system\\forms\\student\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{FDFF5CA9-54B8-4851-B449-39CD84DF73E2}|Education_System\\Education_System.csproj|solutionrelative:education_system\\forms\\student\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentDashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\Education_System\\Forms\\Student\\StudentDashboard.aspx",
+              "RelativeDocumentMoniker": "Education_System\\Forms\\Student\\StudentDashboard.aspx",
+              "ToolTip": "C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\Education_System\\Forms\\Student\\StudentDashboard.aspx",
+              "RelativeToolTip": "Education_System\\Forms\\Student\\StudentDashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-29T12:31:49.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\Education_System\\Forms\\Student\\Register.aspx",
+              "RelativeDocumentMoniker": "Education_System\\Forms\\Student\\Register.aspx",
+              "ToolTip": "C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\Education_System\\Forms\\Student\\Register.aspx",
+              "RelativeToolTip": "Education_System\\Forms\\Student\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-29T10:34:40.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.Master",
+              "DocumentMoniker": "C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\Education_System\\Forms\\Student\\Student.Master",
+              "RelativeDocumentMoniker": "Education_System\\Forms\\Student\\Student.Master",
+              "ToolTip": "C:\\Users\\Zenande\\Downloads\\Telkom Hackathon\\Education_System\\Education_System\\Forms\\Student\\Student.Master",
+              "RelativeToolTip": "Education_System\\Forms\\Student\\Student.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-29T10:17:01.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

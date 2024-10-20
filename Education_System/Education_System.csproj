@@ -1,0 +1,480 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDFF5CA9-54B8-4851-B449-39CD84DF73E2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Education_System</RootNamespace>
+    <AssemblyName>Education_System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44353</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=3.1.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.3.1.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml.Framework, Version=3.1.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.Framework.3.1.0\lib\net46\DocumentFormat.OpenXml.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.4, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.4\lib\net461\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Forms\Student\CareerOptions.aspx" />
+    <Content Include="Forms\Student\ChangeLanguage.aspx" />
+    <Content Include="Forms\Student\CommunityForum.aspx" />
+    <Content Include="Forms\Student\Default.aspx" />
+    <Content Include="Forms\Student\DeveloperCareers.aspx" />
+    <Content Include="Forms\Student\DigitalMarkerCourses.aspx" />
+    <Content Include="Forms\Student\DigitalResources.aspx" />
+    <Content Include="Forms\Student\DownloadDocument.aspx" />
+    <Content Include="Forms\Student\EnrollIntroToProgramming.aspx" />
+    <Content Include="Forms\Student\Login.aspx" />
+    <Content Include="Forms\Student\OnlineVideos.aspx" />
+    <Content Include="Forms\Student\PrintMaterials.aspx" />
+    <Content Include="Forms\Student\ProjectManagementCareers.aspx" />
+    <Content Include="Forms\Student\DoctorCourses.aspx" />
+    <Content Include="Forms\Student\EngineerCareers.aspx" />
+    <Content Include="Forms\Student\DigitalMarketingCareers.aspx" />
+    <Content Include="Forms\Student\ProjectManagentCareers.aspx" />
+    <Content Include="Forms\Student\ProjectManagerCourses.aspx" />
+    <Content Include="Forms\Student\Quizes.aspx" />
+    <Content Include="Forms\Student\QuizIntroProgr.aspx" />
+    <Content Include="Forms\Student\Register.aspx" />
+    <Content Include="Forms\Student\SoftwareDeveloperCourses.aspx" />
+    <Content Include="Forms\Student\StudentDashboard.aspx" />
+    <Content Include="Forms\Student\Thuso.aspx" />
+    <Content Include="Forms\Student\ttsReader.aspx" />
+    <Content Include="Forms\Student\Vids.aspx" />
+    <Content Include="Forms\Student\EnrollWebDevelopmentBasics.aspx" />
+    <Content Include="Forms\Student\EnrollProjectManagement.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\edu.jpg" />
+    <Content Include="Images\edu.mp4" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="Videos\If_Statements.mp4" />
+    <Content Include="Videos\Intro_To_Programming.mp4" />
+    <Content Include="Videos\Understanding_Data_Type.mp4" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\Labels.af.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.xh.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.xh.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.zu.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.zu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\CareerOptions.aspx.cs">
+      <DependentUpon>CareerOptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\CareerOptions.aspx.designer.cs">
+      <DependentUpon>CareerOptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\ChangeLanguage.aspx.cs">
+      <DependentUpon>ChangeLanguage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\ChangeLanguage.aspx.designer.cs">
+      <DependentUpon>ChangeLanguage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\CommunityForum.aspx.cs">
+      <DependentUpon>CommunityForum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\CommunityForum.aspx.designer.cs">
+      <DependentUpon>CommunityForum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\DeveloperCareers.aspx.cs">
+      <DependentUpon>DeveloperCareers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\DeveloperCareers.aspx.designer.cs">
+      <DependentUpon>DeveloperCareers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\DigitalMarkerCourses.aspx.cs">
+      <DependentUpon>DigitalMarkerCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\DigitalMarkerCourses.aspx.designer.cs">
+      <DependentUpon>DigitalMarkerCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\DigitalResources.aspx.cs">
+      <DependentUpon>DigitalResources.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\DigitalResources.aspx.designer.cs">
+      <DependentUpon>DigitalResources.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\DownloadDocument.aspx.cs">
+      <DependentUpon>DownloadDocument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\DownloadDocument.aspx.designer.cs">
+      <DependentUpon>DownloadDocument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\EnrollIntroToProgramming.aspx.cs">
+      <DependentUpon>EnrollIntroToProgramming.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\EnrollIntroToProgramming.aspx.designer.cs">
+      <DependentUpon>EnrollIntroToProgramming.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\OnlineVideos.aspx.cs">
+      <DependentUpon>OnlineVideos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\OnlineVideos.aspx.designer.cs">
+      <DependentUpon>OnlineVideos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\PrintMaterials.aspx.cs">
+      <DependentUpon>PrintMaterials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\PrintMaterials.aspx.designer.cs">
+      <DependentUpon>PrintMaterials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\ProjectManagementCareers.aspx.cs">
+      <DependentUpon>ProjectManagementCareers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\ProjectManagementCareers.aspx.designer.cs">
+      <DependentUpon>ProjectManagementCareers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\DoctorCourses.aspx.cs">
+      <DependentUpon>DoctorCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\DoctorCourses.aspx.designer.cs">
+      <DependentUpon>DoctorCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\EngineerCareers.aspx.cs">
+      <DependentUpon>EngineerCareers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\EngineerCareers.aspx.designer.cs">
+      <DependentUpon>EngineerCareers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\DigitalMarketingCareers.aspx.cs">
+      <DependentUpon>DigitalMarketingCareers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\DigitalMarketingCareers.aspx.designer.cs">
+      <DependentUpon>DigitalMarketingCareers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\ProjectManagentCareers.aspx.cs">
+      <DependentUpon>ProjectManagentCareers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\ProjectManagentCareers.aspx.designer.cs">
+      <DependentUpon>ProjectManagentCareers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\ProjectManagerCourses.aspx.cs">
+      <DependentUpon>ProjectManagerCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\ProjectManagerCourses.aspx.designer.cs">
+      <DependentUpon>ProjectManagerCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\Quizes.aspx.cs">
+      <DependentUpon>Quizes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\Quizes.aspx.designer.cs">
+      <DependentUpon>Quizes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\QuizIntroProgr.aspx.cs">
+      <DependentUpon>QuizIntroProgr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\QuizIntroProgr.aspx.designer.cs">
+      <DependentUpon>QuizIntroProgr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\SoftwareDeveloperCourses.aspx.cs">
+      <DependentUpon>SoftwareDeveloperCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\SoftwareDeveloperCourses.aspx.designer.cs">
+      <DependentUpon>SoftwareDeveloperCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\Student.Master.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\Student.Master.designer.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\StudentDashboard.aspx.cs">
+      <DependentUpon>StudentDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\StudentDashboard.aspx.designer.cs">
+      <DependentUpon>StudentDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\TextToSpeech.cs" />
+    <Compile Include="Forms\Student\Thuso.aspx.cs">
+      <DependentUpon>Thuso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\Thuso.aspx.designer.cs">
+      <DependentUpon>Thuso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\ttsReader.aspx.cs">
+      <DependentUpon>ttsReader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\ttsReader.aspx.designer.cs">
+      <DependentUpon>ttsReader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\Vids.aspx.cs">
+      <DependentUpon>Vids.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\Vids.aspx.designer.cs">
+      <DependentUpon>Vids.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\EnrollWebDevelopmentBasics.aspx.cs">
+      <DependentUpon>EnrollWebDevelopmentBasics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\EnrollWebDevelopmentBasics.aspx.designer.cs">
+      <DependentUpon>EnrollWebDevelopmentBasics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\EnrollProjectManagement.aspx.cs">
+      <DependentUpon>EnrollProjectManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\EnrollProjectManagement.aspx.designer.cs">
+      <DependentUpon>EnrollProjectManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Forms\Student\Student.Master" />
+    <Content Include="Documents\SoftwareDevelopment\CSSBasics.pdf" />
+    <Content Include="Documents\SoftwareDevelopment\DOMManipulation.pdf" />
+    <Content Include="Documents\SoftwareDevelopment\IntroBackend.pdf" />
+    <Content Include="Documents\SoftwareDevelopment\IntroHTML.pdf" />
+    <Content Include="Documents\SoftwareDevelopment\JSFundamentals.pdf" />
+    <Content Include="Documents\SoftwareDevelopment\NodeJSBasics.pdf" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logic\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Labels.af.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.af.designer.cs</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="App_GlobalResources\Labels.es.resx" />
+    <EmbeddedResource Include="App_GlobalResources\Labels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="App_GlobalResources\Labels.xh.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.xh.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Labels.zu.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.zu.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61498</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44353/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

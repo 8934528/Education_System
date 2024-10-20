@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Ngaphakathi</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>PathFinder</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Qhagamshelana</value>
+  </data>
+  <data name="Courses" xml:space="preserve">
+    <value>Iikhosi</value>
+  </data>
+  <data name="GetInTouchButton" xml:space="preserve">
+    <value>Nxibelelana nathi</value>
+  </data>
+  <data name="GetStartedButton" xml:space="preserve">
+    <value>Qala</value>
+  </data>
+  <data name="Greeting" xml:space="preserve">
+    <value>Wamkelekile kuRhwebo lweMfundo!</value>
+  </data>
+  <data name="HighSchoolDescription" xml:space="preserve">
+    <value>Iikhosi zabafundi besikolo esiphakamileyo kunye nabo bawishiweyo.</value>
+  </data>
+  <data name="HighSchoolTitle" xml:space="preserve">
+    <value>Inqanaba leSikolo samabanga aphakamileyo</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Ikhaya</value>
+  </data>
+  <data name="LearnMoreButton" xml:space="preserve">
+    <value>Funda Okungakumbi</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Umbhalo uye elizwini</value>
+  </data>
+  <data name="PrimarySchoolDescription" xml:space="preserve">
+    <value>Iikhosi ezilungiselelwe imfundo esisiseko.</value>
+  </data>
+  <data name="PrimarySchoolTitle" xml:space="preserve">
+    <value>Inqanaba leSikolo sasePrayimari</value>
+  </data>
+  <data name="Question1" xml:space="preserve">
+    <value>Yintoni i-HTML?</value>
+  </data>
+  <data name="Question10" xml:space="preserve">
+    <value>Yintoni injongo ye-tag &lt;head&gt;?</value>
+  </data>
+  <data name="Question11" xml:space="preserve">
+    <value>Yeyiphi ifreyimu esetyenziselwa ukwakha iisayithi eziphilayo?</value>
+  </data>
+  <data name="Question12" xml:space="preserve">
+    <value>Yeyiphi i-tag esetyenziswa ngaphezulu kwenkcukacha?</value>
+  </data>
+  <data name="Question13" xml:space="preserve">
+    <value>Ungayikhetha njani into nge-ID yayo kwiJavaScript?</value>
+  </data>
+  <data name="Question14" xml:space="preserve">
+    <value>Yintoni i this emele kwiJavaScript?</value>
+  </data>
+  <data name="Question15" xml:space="preserve">
+    <value>Yeyiphi umcimbi owenzeka xa umsebenzisi ucofa kumphambili?</value>
+  </data>
+  <data name="Question2" xml:space="preserve">
+    <value>Yeyiphi ulwimi lusebenzisa kakhulu kwiwebhu?</value>
+  </data>
+  <data name="Question3" xml:space="preserve">
+    <value>Ungayichaza njani i-variable kwiJavaScript?</value>
+  </data>
+  <data name="Question4" xml:space="preserve">
+    <value>Yintoni uphawu olusetyenziswa ukujolisa kumphambili kwiJavaScript?</value>
+  </data>
+  <data name="Question5" xml:space="preserve">
+    <value>Yintoni enokubuyiselwa ngu 22 / 2 kwiJavaScript?</value>
+  </data>
+  <data name="Question6" xml:space="preserve">
+    <value>Ungayichaza njani umsebenzi kwiJavaScript?</value>
+  </data>
+  <data name="Question7" xml:space="preserve">
+    <value>Yintoni uhlobo lwedatha olusetyenziselwa ukuveza ukuba kunyanzelekile okanye hayi?</value>
+  </data>
+  <data name="Question8" xml:space="preserve">
+    <value>Yintoni i-CSS?</value>
+  </data>
+  <data name="Question9" xml:space="preserve">
+    <value>Yeyiphi i-attribute esetyenziselwa ukwenzela iimpawu kumphambili?</value>
+  </data>
+  <data name="QuickLinksAboutDescription" xml:space="preserve">
+    <value>Funda okungakumbi malunga nenjongo yethu kunye nexabiso lethu kwimfundo.</value>
+  </data>
+  <data name="QuickLinksAboutTitle" xml:space="preserve">
+    <value>Ngathi</value>
+  </data>
+  <data name="QuickLinksContactDescription" xml:space="preserve">
+    <value>Unemibuzo? Qhagamshelana nathi ngenkxaso kunye nemibuzo.</value>
+  </data>
+  <data name="QuickLinksContactTitle" xml:space="preserve">
+    <value>Qhagamshelana nathi</value>
+  </data>
+  <data name="QuickLinksCoursesDescription" xml:space="preserve">
+    <value>Jonga iinketho ezahlukeneyo zemfundo ukusuka kwisikolo samabanga aphantsi ukuya eyunivesithi.</value>
+  </data>
+  <data name="QuickLinksCoursesTitle" xml:space="preserve">
+    <value>Izifundo</value>
+  </data>
+  <data name="SelectEducationalLevel" xml:space="preserve">
+    <value>Khetha iNqanaba leMfundo Yakho</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UniversityDescription" xml:space="preserve">
+    <value>Iikhosi zemfundo ephakamileyo ukunyusa ikhono lakho lomsebenzi.</value>
+  </data>
+  <data name="UniversityTitle" xml:space="preserve">
+    <value>Iyunivesithi/Ikholeji</value>
+  </data>
+  <data name="UpskillingDescription" xml:space="preserve">
+    <value>Iikhosi zokuphucula izakhono zakho zokulungiselela umsebenzi.</value>
+  </data>
+  <data name="UpskillingTitle" xml:space="preserve">
+    <value>Iikhosi zokuPhucula Izakhono</value>
+  </data>
+  <data name="ViewCourses" xml:space="preserve">
+    <value>Jonga iikhosi</value>
+  </data>
+  <data name="ViewCoursesButton" xml:space="preserve">
+    <value>Bona Izifundo</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Wamkelekile kwiNkqubo yeMfundo</value>
+  </data>
+  <data name="WelcomeSubtitle" xml:space="preserve">
+    <value>Uhambo lwakho lokufunda luqala apha. Jonga izifundo kunye nezixhobo kuwo onke amanqanaba emfundo.</value>
+  </data>
+</root>

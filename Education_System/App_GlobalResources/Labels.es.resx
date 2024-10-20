@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>PathFinder</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="Courses" xml:space="preserve">
+    <value>Cursos</value>
+  </data>
+  <data name="GetInTouchButton" xml:space="preserve">
+    <value>Ponerse en Contacto</value>
+  </data>
+  <data name="GetStartedButton" xml:space="preserve">
+    <value>Empezar</value>
+  </data>
+  <data name="Greeting" xml:space="preserve">
+    <value>¡Bienvenido al Sistema Educativo!</value>
+  </data>
+  <data name="HighSchoolDescription" xml:space="preserve">
+    <value>Cursos para estudiantes y desertores de la escuela secundaria.</value>
+  </data>
+  <data name="HighSchoolTitle" xml:space="preserve">
+    <value>Nivel de Escuela Secundaria</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="LearnMoreButton" xml:space="preserve">
+    <value>Saber Más</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Texto a Voz</value>
+  </data>
+  <data name="PrimarySchoolDescription" xml:space="preserve">
+    <value>Cursos diseñados para la educación básica.</value>
+  </data>
+  <data name="PrimarySchoolTitle" xml:space="preserve">
+    <value>Nivel de Escuela Primaria</value>
+  </data>
+  <data name="PrimarySchoolTitlPrimarySchoolTitle" xml:space="preserve">
+    <value>Nivel de Escuela Primaria</value>
+  </data>
+  <data name="QuickLinksAboutDescription" xml:space="preserve">
+    <value>Conoce más sobre nuestra misión y valores en la educación.</value>
+  </data>
+  <data name="QuickLinksAboutTitle" xml:space="preserve">
+    <value>Sobre Nosotros</value>
+  </data>
+  <data name="QuickLinksContactDescription" xml:space="preserve">
+    <value>¿Tienes preguntas? Contáctanos para soporte e información</value>
+  </data>
+  <data name="QuickLinksContactTitle" xml:space="preserve">
+    <value>Contáctanos</value>
+  </data>
+  <data name="QuickLinksCoursesDescription" xml:space="preserve">
+    <value>Explora varias opciones educativas desde la escuela primaria hasta la universidad.</value>
+  </data>
+  <data name="QuickLinksCoursesTitle" xml:space="preserve">
+    <value>Cursos</value>
+  </data>
+  <data name="SelectEducationalLevel" xml:space="preserve">
+    <value>Seleccionar Nivel Educativo</value>
+  </data>
+  <data name="UniversityDescription" xml:space="preserve">
+    <value>Cursos de educación superior para avanzar en tu carrera.</value>
+  </data>
+  <data name="UniversityTitle" xml:space="preserve">
+    <value>Universidad/Facultad</value>
+  </data>
+  <data name="UpskillingDescription" xml:space="preserve">
+    <value>Cursos para mejorar habilidades para la preparación laboral.</value>
+  </data>
+  <data name="UpskillingTitle" xml:space="preserve">
+    <value>Cursos de Mejora de Habilidades</value>
+  </data>
+  <data name="ViewCourses" xml:space="preserve">
+    <value>Ver Cursos</value>
+  </data>
+  <data name="ViewCoursesButton" xml:space="preserve">
+    <value>Ver Cursos</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Bienvenido al Sistema Educativo</value>
+  </data>
+  <data name="WelcomeSubtitle" xml:space="preserve">
+    <value>Tu viaje hacia el conocimiento comienza aquí. Explora cursos y recursos para todos los niveles educativos.</value>
+  </data>
+</root>
