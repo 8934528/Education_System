@@ -23,11 +23,5 @@
 - **Text-to-Speech**: Web Speech API 
 - **Multilingual Support**: i18n 
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (version x.x.x)
-- MongoDB (if using)
-- [Any other dependencies]
 
 ---
