@@ -1,7 +1,5 @@
 # Harmony Education System 🎓
 
-![Education System Banner](./Images/projects/EducationSystem.png)
-
 **Welcome to the Harmony Education System** - An inclusive digital learning platform developed during the Telkom Eastern Cape Hackathon by Team Harmony, designed to make education accessible for all South African learners.
 
 ## 🌟 Features
