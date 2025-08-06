@@ -1,8 +1,8 @@
-# Harmony Education System 🎓
+# Harmony Education System 
 
 **Welcome to the Harmony Education System** - An inclusive digital learning platform developed during the Telkom Eastern Cape Hackathon by Team Harmony, designed to make education accessible for all South African learners.
 
-## 🌟 Features
+## Features
 
 - **Multi-Format Resources**: Download PDFs, videos, and other educational materials
 - **Language Inclusivity**: Supports multiple South African languages
@@ -15,7 +15,7 @@
   - Cloud storage for learning materials
 - **Course Explorer**: Detailed information about available courses
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Frontend**: ASP.NET (.aspx), CSS3, JavaScript
 - **Backend**: C#
